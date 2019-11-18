@@ -42,6 +42,12 @@ Step 5:
 
 Step 6
 
+	Adjust the CMake list for QTCreator compatability:
+
+		gedit ~/SwarmBaseCode-ROS/src/behaviours/CMakeLists.txt
+		add the following just after line 4 in the code: SET(CMAKE_BUILD_TYPE Debug)
+		save and exit the editor
+
 	Get the behavioral code implemented:
 
 		cd ~/SwarmBaseCode-ROS/src/behaviours/src
